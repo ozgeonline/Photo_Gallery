@@ -33,7 +33,6 @@ async function fetchImage(){
       errorMessageEl.innerHTML = "An error happened, try again later...";
       errorMessageEl.style.display = "block";
       btnEl.style.display = "block";
-      errorMessageEl.style.display = "none";
    }
 
 };
